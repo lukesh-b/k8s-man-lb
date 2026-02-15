@@ -5,6 +5,7 @@
    labels:
      app: nginx
      env: sub-prod
+     type: front-end
  spec:
     containers:
       - name: nginxcontainer
