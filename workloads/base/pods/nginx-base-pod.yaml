@@ -4,6 +4,7 @@
    name: nginx-pod
    labels:
      app: nginx
+     env: sub-prod
  spec:
     containers:
       - name: nginxcontainer
